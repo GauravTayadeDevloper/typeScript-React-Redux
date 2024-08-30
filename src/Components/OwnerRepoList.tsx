@@ -47,9 +47,7 @@ const OwnerRepoList: React.FC = () => {
                                         {repo.html_url}
                                     </a>
                                 </div>
-                                <div className="detail-box">
-                                    <button className="view-repos-button">View Repositories</button>
-                                </div>
+                                
                             </div>
                             <div
                                 className={`favorite-icon ${favorites.includes(repo.id) ? 'favorited' : ''}`}
